@@ -62,5 +62,6 @@ declare namespace WebpackPwaManifest {
         ios?: boolean | 'default' | 'startup';
         purpose?: string;
         type?: string;
+        publicPath?: string;
     }
 }
